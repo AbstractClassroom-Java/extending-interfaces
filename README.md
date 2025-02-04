@@ -19,9 +19,9 @@ In Java, interfaces can extend other interfaces, allowing for hierarchical relat
 ### Overview of Implementations
 
 - **EqTriangle**: Implements both `IRegularPolygon` and `ITriangle`, demonstrating multiple interface implementations.
-- **Circle**: Implements `ICircle`, showcasing how circles conform to the elliptical shape hierarchy.
+- **Circle**: Implements `ICircle`, demonstrating how circles conform to the elliptical shape hierarchy.
 - **Rectangle**: Implements `IRectangle`, modeling general rectangles.
-- **Square**: Extends `Rectangle` and implements `IRegularPolygon`, ensuring squares inherit rectangle properties while conforming to the regular polygon constraints.
+- **Square**: Extends `Rectangle` and implements `IRegularPolygon`, allowing squares to inherit rectangle properties while conforming to the regular polygon constraints.
 
-This structure showcases the power of interface extension, enabling shared behavior while allowing specific characteristics to be defined for each shape type.
+This structure demonstrates the power of interface extension, enabling shared behavior while allowing specific characteristics to be defined for each shape type.
 
