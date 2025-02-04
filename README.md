@@ -14,7 +14,7 @@ In Java, interfaces can extend other interfaces, allowing for hierarchical relat
 - **ITriangle**: Extends `IPolygon`, providing a default method `getNumberOfSides()` that returns 3.
 - **IEllipse**: Extends `IShape`, representing elliptical shapes.
 - **ICircle**: Extends `IEllipse`, representing circles.
-- **IRectangle**: Extends `IPolygon`, representing rectangles. It also provides a default method `getNumberOfSides()` that returns 4;
+- **IRectangle**: Extends `IPolygon`, representing rectangles. It also provides a default method `getNumberOfSides()` that returns 4.  This implies class `Square` and `Rectangle` will provide 4 when `getNumberOfSides()` is called for these classes.  Both classes inheriting it from the `IRectangle` interface.
 
 ### Overview of Implementations
 
